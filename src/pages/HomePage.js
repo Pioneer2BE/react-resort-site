@@ -5,13 +5,13 @@ import Hero from '../components/Hero';
 import ResortListing from '../components/ResortListing';
 import Footer from '../components/Footer'
 
-const HomePage = () => {
+const HomePage = (props) => {
     return (
         <div>
             <Header/>
             <main>
                 <Hero/>
-                <ResortListing/>
+                <ResortListing resorts= {props.resorts}/>
             </main>
             <Footer/>
         </div>

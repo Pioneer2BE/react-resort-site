@@ -1,0 +1,34 @@
+{
+    "resorts": [
+
+      {
+          "id": 1,
+          "pic": "resort1.webp",
+          "resort_name":"Cabana Royole",
+          "price": 30,
+          "details": "blah blah blah blah blah blah blah"
+      },
+        {
+          "id": 2,
+          "pic": "resort2.webp",
+          "resort_name":"Isla Bonita",
+          "price": 40,
+          "details": "blah blah blah blah blah blah blah"
+        },
+        {
+          "id": 3,
+          "pic": "resort3.webp",
+          "resort_name":"Royal Palm",
+          "price": 50,
+          "details": "blah blah blah blah blah blah blah"
+        },
+        {
+          "id": 4,
+          "pic": "resort4.webp",
+          "resort_name":"Blue Capri",
+          "price": 60,
+          "details": "blah blah blah blah blah blah blah"
+        }
+        
+    ]
+}

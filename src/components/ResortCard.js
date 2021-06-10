@@ -1,16 +1,19 @@
 import React from 'react'
 
-const ResortCard = () => {
+const ResortCard = (props) => {
+
+    const image = require(`../assets/img/${props.pic}`).default
+
     return (
         <div class="resort-card">
 
             <a href = "html/resort-description.html"> 
-                <img src="img/resort1.webp" alt=""/>   
+                <img src={image} alt=""/>   
             </a> 
 
             <div class="resortContent">
-                <h3>Resort 1</h3>
-                <p>$70.00 per night</p>
+                <h3>{props.resort_name}</h3>
+                <p>${props.price}.00 per night</p>
             </div>
 
         </div>
